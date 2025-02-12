@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            background: linear-gradient(to right, #1a1a1a, #4a4a4a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+            color: #666;
+        }
+
+        /* About Section */
+        .about {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .about h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .about-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Social Links */
+        .social {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .social h2 {
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .social-button {
+            padding: 12px 24px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .social-button:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .contact h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .form-group textarea {
+            min-height: 100px;
+        }
+
+        button {
+            background: #333;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background: #444;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Guntur Arya Pangestu</h1>
+                <p>Children who want to be successful</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-card">
+                    <p>
+                        Hi! I am Guntur Arya Pangestu, you can call me Guntur. I am a student at SMKS YOSONEGORO Magetan, I am now in class eleven, this is a website that I created for us to get to know each other. If you want to get to know me better, you can contact me by selecting one of the links below. Thank You
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Links -->
+        <section class="social">
+            <div class="container">
+                <h2>Connect With Me</h2>
+                <div class="social-links">
+                    <a href="https://instagram.com/gunanjaymabar_" class="social-button">
+                        Instagram
+                    </a>
+                    <a href="https://wa.me/+6281391575988" class="social-button">
+                        WhatsApp
+                    </a>
+                    <a href="https://tiktok.com/@johndoe" class="social-button">
+                        TikTok
+                    </a>
+                    <a href="https://facebook.com/johndoe" class="social-button">
+                        Facebook
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+       <form
+  action="https://formspree.io/f/xrbeaqla"
+  method="POST"
+>
+<div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+  <label>
+    Your Email:
+    <input type="email" name="email" placeholder="Your Email">
+  </label>
+</div>
+<div class="form-group">
+  <label>
+    Your Message:
+    <textarea name="message" name="message" placeholder="Your Message"></textarea>
+  </label>
+</div>
+  <!-- your other form fields go here -->
+  <button type="submit">Contact Me</button>
+</form>
+</div>
+</section>
+    </main>
+</body>
+</html>
